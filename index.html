@@ -45,7 +45,7 @@
 				
 				<script type="text/javascript">
 				jQuery( function( $ ) {
-				  
+				  	// See https://css-tricks.com/using-the-wp-api-to-fetch-posts/ for more examples
 				    $.ajax( {
 				      url: 'http://wcct.dev/wp-json/wp/v2/posts?filter[order]=ASC&filter[category_name]=slides&filter[posts_per_page]=-1',
 				      success: function ( data ) {
